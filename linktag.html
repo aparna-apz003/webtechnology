@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Show Code and Output</title>
+  <style>
+    body {
+      display: flex;
+      font-family: Arial, sans-serif;
+    }
+    .code, .output {
+      width: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    pre {
+      background-color: #f0f0f0;
+      padding: 10px;
+      overflow-x: auto;
+      border: 1px solid #ccc;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="code">
+  <h2>HTML Code</h2>
+  <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;output&lt;/h1&gt;
+
+&lt;h2&gt;The a href attribute&lt;/h2&gt;
+
+&lt;p&gt;An absolute URL: 
+  &lt;a href="hub.html"&gt;learn html tags&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+  </pre>
+</div>
+
+<div class="output">
+  <h2>Output</h2>
+  <iframe srcdoc='
+    <!DOCTYPE html>
+    <html>
+    <body>
+      <h1>output</h1>
+      <h2>The a href attribute</h2>
+      <p>An absolute URL: 
+        <a href="hub.html">learn html tags</a>
+      </p>
+    </body>
+    </html>'>
+  </iframe>
+</div>
+
+</body>
+</html>

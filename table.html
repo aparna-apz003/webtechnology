@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Table Element Example</title>
+  <style>
+    body {
+      display: flex;
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      width: 100%;
+    }
+    .code, .output {
+      width: 50%;
+      padding: 20px;
+      box-sizing: border-box;
+      overflow-y: auto;
+      height: 100vh;
+    }
+    .code {
+      background-color: #f4f4f4;
+      border-right: 1px solid #ccc;
+    }
+    pre {
+      background-color: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+      white-space: pre-wrap;
+    }
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Code Display -->
+  <div class="code">
+    <h2>HTML Code</h2>
+    <pre>
+&lt;h1&gt;The table element&lt;/h1&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;birds&lt;/th&gt;
+    &lt;th&gt;animals&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;peacock&lt;/td&gt;
+    &lt;td&gt;lion&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;crow&lt;/td&gt;
+    &lt;td&gt;cow&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;dove&lt;/td&gt;
+    &lt;td&gt;cat&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+  </div>
+
+  <!-- Output Display -->
+  <div class="output">
+    <h1>The table element</h1>
+    <table>
+      <tr>
+        <th>birds</th>
+        <th>animals</th>
+      </tr>
+      <tr>
+        <td>peacock</td>
+        <td>lion</td>
+      </tr>
+      <tr>
+        <td>crow</td>
+        <td>cow</td>
+      </tr>
+      <tr>
+        <td>dove</td>
+        <td>cat</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</body>
+</html>

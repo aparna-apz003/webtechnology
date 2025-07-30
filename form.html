@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Code and Output</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: space-between;
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .code-box, .output-box {
+      width: 48%;
+      padding: 20px;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .code-box {
+      background-color: #f8f8f8;
+      white-space: pre-wrap;
+      font-family: monospace;
+    }
+    .output-box h1 {
+      font-weight: bold;
+    }
+    input[type="text"] {
+      width: 200px;
+      padding: 5px;
+      margin-left: 10px;
+    }
+    input[type="submit"] {
+      margin-top: 10px;
+      padding: 5px 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Code display -->
+  <div class="code-box">
+<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;body&gt;
+
+  &lt;h1&gt;The form element&lt;/h1&gt;
+
+  &lt;form action="/action_page.php"&gt;
+    &lt;label for="fname"&gt;First name:&lt;/label&gt;
+    &lt;input type="text" id="fname" name="fname"&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;label for="lname"&gt;Last name:&lt;/label&gt;
+    &lt;input type="text" id="lname" name="lname"&gt;&lt;br&gt;&lt;br&gt;
+
+    &lt;input type="submit" value="Submit"&gt;
+  &lt;/form&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+  </div>
+
+  <!-- Output display -->
+  <div class="output-box">
+    <h1>The form element</h1>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+
+      <input type="submit" value="Submit">
+      <a href="hub.html">back to previous page</a>
+    </form>
+  </div>
+
+</body>
+</html>
+ 
